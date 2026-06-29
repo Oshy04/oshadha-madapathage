@@ -1,9 +1,9 @@
 import { asset } from "../utils/paths.js";
 
 export const navLinks = [
-    { name: "Work", link: "#work" },
-    { name: "Experience", link: "#experience" },
-    { name: "Skills", link: "#skills" },
+    { name: "Projets", link: "#work" },
+    { name: "Expériences", link: "#experience" },
+    { name: "Compétences", link: "#skills" },
     { name: "Synthèse", link: "#synthese" },
 ];
 
@@ -69,7 +69,7 @@ export const techStackImgs = [
 export const techStackIcons = [
     { name: "Cisco Packet Tracer", modelPath: asset("/models/cisco_logo-transformed.glb"), scale: 1, rotation: [0, 0, 0] },
     { name: "Windows", modelPath: asset("/models/windows_logo-transformed.glb"), scale: 0.4, rotation: [0, 0, 0] },
-    { name: "Linux", modelPath: asset("/models/tux.glb"), scale: 0.04, rotation: [0, -Math.PI / 2, 0] },
+    { name: "Linux", modelPath: asset("/models/tux.glb"), scale: 0.04, rotation: [0, 0, 0], position: [0, 0, 0] },
     { name: "Git", modelPath: asset("/models/git-svg-transformed.glb"), scale: 0.05, rotation: [0, -Math.PI / 4, 0] },
 ];
 

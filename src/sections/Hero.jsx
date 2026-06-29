@@ -44,9 +44,9 @@ const Hero = () => {
                             <h1>qui délivrent des résultats</h1>
                         </div>
                         <p className="text-white-50 md:text-xl relative z-10 pointer-events-none">
-                            Bonjour, Je m'appele Oshadha, Je suis étudiant à l'école de l'IPSSI en BTS SIO Option SISR
+                            Bonjour, Je m'appelle Oshadha, étudiant en BTS SIO option SISR à l'IPSSI Val d'Europe, je me spécialise dans l'administration des infrastructures systèmes et réseaux.
                         </p>
-                        <Button text="See My Work" className="md:w-80 md:h-16 w-60 h-12" id="button" />
+                        <Button text="Mes projets" className="md:w-80 md:h-16 w-60 h-12" id="button" />
                     </div>
                 </header>
 
